@@ -1,0 +1,20 @@
+h1 {
+    color: burlywood;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-largße;
+    font-variant: small-caps;
+}
+
+.list_one ol{
+    list-style-type: upper-roman;
+}
+
+
+span {
+    color: brown;
+    font-style: italic;
+}
+
+.main-choice {
+    color: green;
+}
