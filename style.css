@@ -5,6 +5,11 @@ h1 {
     font-variant: small-caps;
 }
 
+img {
+    border: 5px dashed burlywood;
+}
+
+
 .list_one ol{
     list-style-type: upper-roman;
 }
@@ -17,4 +22,43 @@ span {
 
 .main-choice {
     color: green;
+}
+
+.initial {
+    border: thick double black;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.main {
+    padding: 20px;
+    border: thick dashed black;
+    margin: 10px
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 5px;
+}
+
+tr:nth-child(odd) {
+    background-color: burlywood;
+}
+
+.class_schedule {
+    margin: 20px;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+#sched {
+    font-size: xx-large;
 }
