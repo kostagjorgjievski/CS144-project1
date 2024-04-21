@@ -5,53 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kosta Gjorgjievski's CS144 Website</title>
     <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link href='https://fonts.googleapis.com/css?family=Ewert' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="initial">
-        <h1>Kosta Gjorgjievski About Me Page</h1>
-        <img src="kosta.jpeg" alt="Image of Kosta Gjorgjievski wearing a orange shirt">
-    </div>
-    <div class="class_schedule">
-        <span id="sched">Current Class Schedule</span>
-        <table>
-            <thead>
-                <tr>
-                    <th>Class Code</th>
-                    <th>Class Name</th>
-                    <th>Expected Grade</th>
-                    <th colspan="2">Reason to take</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th>COM SCI 144</th>
-                    <th>Web Applications</th>
-                    <th>A</th>
-                    <th>To learn about websites, how to make them, and to be able to make web applications</th>
-                    <th rowspan="2">Favorite Classes so Far</th>
-                </tr>
-                <tr>
-                    <th>COM SCI 161</th>
-                    <th>Artifical Intelligence</th>
-                    <th>A</th>
-                    <th>To learn about AI models and techniques to use in personal projects</th>
-                </tr>
-                <tr>
-                    <th>COM SCI 131</th>
-                    <th>Programming Languages</th>
-                    <th>B+</th>
-                    <th>To satisfy a requirement</th>
-                </tr>
-            </tbody>
-            <tfoot>
-                <tr>
-                </tr>
-            </tfoot>
-        </table>
-        <h3>I might take summer classes too</h3>
-    </div>
-    
+    <header>
+        <div class="initial">
+            <h1>&#128511; Kosta Gjorgjievski About Me Page &#128511;</h1>
+            <img src="kosta.jpeg" alt="Image of Kosta Gjorgjievski wearing a orange shirt">
+            <div class="social">
+                <a href="https://www.linkedin.com"><img class="social-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png" alt="linkedin-logo"></a>
+                <a href="https://www.github.com"><img class="social-img" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github-logo"></a>
+            </div>
+            <div class="hover-hide">I will take you to the links on click</div>
+        </div>
+    </header>
+    <article>
+        <div class="class_schedule">
+            <div class="ball"></div>
+            <span id="sched">Current Class Schedule</span>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Class Code</th>
+                        <th>Class Name</th>
+                        <th>Expected Grade</th>
+                        <th colspan="2">Reason to take</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th><a  target="_blank" class="classlinks" href="https://sa.ucla.edu/ro/Public/SOC/Results/ClassDetail?term_cd=16W&subj_area_cd=COM%20SCI&crs_catlg_no=0144%20%20%20%20&class_id=187564200&class_no=%20001%20%20">COM SCI 144</a></th>
+                        <th>Web Applications</th>
+                        <th>A</th>
+                        <th>To learn about websites, how to make them, and to be able to make web applications</th>
+                        <th rowspan="2">Favorite Classes so Far</th>
+                    </tr>
+                    <tr>
+                        <th><a target="_blank" class="classlinks" href="https://sa.ucla.edu/ro/Public/SOC/Results/ClassDetail?term_cd=15F&subj_area_cd=COM%20SCI&crs_catlg_no=0161%20%20%20%20&class_id=187696200&class_no=%20001%20%20">COM SCI 161</a></th>
+                        <th>Artifical Intelligence</th>
+                        <th>A</th>
+                        <th>To learn about AI models and techniques to use in personal projects</th>
+                    </tr>
+                    <tr>
+                        <th><a target="_blank" class="classlinks" href="https://sa.ucla.edu/ro/Public/SOC/Results/ClassDetail?term_cd=16S&subj_area_cd=COM%20SCI&crs_catlg_no=0131%20%20%20%20&class_id=187510200&class_no=%20001%20%20">COM SCI 131</a></th>
+                        <th>Programming Languages</th>
+                        <th>B+</th>
+                        <th>To satisfy a requirement</th>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="5">I am really enjoying upper-division classes</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <h3>I might take summer classes too</h3>
+        </div>
+    </article>
+
+    <article>
     <div class="main">
         <h2>Questions and Answers</h2>
         <hr/>
@@ -71,16 +84,17 @@
         </p>
         <hr/>
         <span>Q: What are your career interests?</span>
-        <p>
+            <p>
             I had always wanted to do something with computer science since I have been in this field for such a long time. I started coding in early middle school because I had to give up gaming due to the slow internet in my country, and I could not stay competitive. 
             <br/>
             So I wanted to become a Software Engineer. That was all great untill a year ago since ChatGPT came out, and I started to get the feeling that Software Engineering will not be around for much longer, or maybe it will, we do not know. 
             <br/>
             Considering this, I am eager to go to Graduate School right now to become an expert in a field or maybe become an expert in Artificial Inteligence too. Still have not decided.
             Here are some countries I am considering for Graduate School: Green ones are main choices!
+            </p>
             <ul class="list_one">
                 <li>
-                    United States
+                    United States 	&#128509;
                     <ol>
                         <li>Stanford University</li>
                         <li class="main-choice">UCLA</li>
@@ -88,7 +102,7 @@
                     </ol>
                 </li>
                 <li>
-                    China
+                    China &#128507;
                     <ol>
                         <li class="main-choice">Tsinghua University</li>
                         <li>Peking University</li>
@@ -105,7 +119,7 @@
                 </li>
 
             </ul>
-        </p>
+
         <hr/>
 
         <span>Q: About a project you are working on, or have worked on.</span>
@@ -115,6 +129,10 @@
             My idea is to offer all the required features to be able for the dog walkers to take their clients off the exploitative apps to my app, and not lose anything in convenience. They will be able to keep all their earnings. The app would be a monthly subscription compared to a per walk charge on the other apps.
         </p>
     </div>
+    </article>
+    <footer>
+        Copyright, All right Reserved Kosta Gjorgjievski
+    </footer>
     
 </body>
 </html>
